@@ -136,3 +136,13 @@ os = "windows"
     [[HelloWorldCxx.download]]
     sha256 = "7f384e992c44eaac4913b8dd72142c653420135033d1700cbb3c0f15c8908094"
     url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.0.0+0/HelloWorldCxx.v1.0.0.i686-w64-mingw32-cxx11.tar.gz"
+[[HelloWorldCxx]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b553cb4ff6ad51555dad0ad1d64ec9d5f3a5df12"
+libc = "glibc"
+os = "linux"
+
+    [[HelloWorldCxx.download]]
+    sha256 = "924e9e42158f0762aa21cd2046197bf5a9ed8537a1d3c8dfd265628524d88a71"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.0.0+0/HelloWorldCxx.v1.0.0.powerpc64le-linux-gnu-cxx11.tar.gz"
