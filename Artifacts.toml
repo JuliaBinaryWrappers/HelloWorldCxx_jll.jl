@@ -1,0 +1,30 @@
+[[HelloWorldCxx]]
+arch = "armv7l"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "697584dc59e1d446e70e7320c8a3be85783beaff"
+libc = "glibc"
+os = "linux"
+
+    [[HelloWorldCxx.download]]
+    sha256 = "409a9b3fdee6721ea5bae94efe60eea6cc068b15dc9b43692c72edc61ad47037"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.0.0+0/HelloWorldCxx.v1.0.0.arm-linux-gnueabihf-cxx03.tar.gz"
+[[HelloWorldCxx]]
+arch = "armv7l"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "81cb43c0d480a5f58f0ad963914fbb280cb875d4"
+libc = "musl"
+os = "linux"
+
+    [[HelloWorldCxx.download]]
+    sha256 = "93e62d80de54c9e1bf76f40732356b84a783f9f134037d9abf8c797aca490ef8"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.0.0+0/HelloWorldCxx.v1.0.0.arm-linux-musleabihf-cxx03.tar.gz"
+[[HelloWorldCxx]]
+arch = "armv7l"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "16421ed2ea193f17a2d3e43abade4d11765c407f"
+libc = "glibc"
+os = "linux"
+
+    [[HelloWorldCxx.download]]
+    sha256 = "609354bdd62369f4cf1967f5bd1699a214fc0432bbf72b4b7e3a38a3d9ba274d"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.0.0+0/HelloWorldCxx.v1.0.0.arm-linux-gnueabihf-cxx11.tar.gz"
