@@ -7,3 +7,13 @@ os = "macos"
     [[HelloWorldCxx.download]]
     sha256 = "6918232aa47f8c783a11db81c85d94f929ef44bfbf7f995542ea9041b21dc85f"
     url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.0.0+0/HelloWorldCxx.v1.0.0.x86_64-apple-darwin14-cxx03.tar.gz"
+[[HelloWorldCxx]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8ec07ae665b157018b26da2251f4864777110ad8"
+libc = "glibc"
+os = "linux"
+
+    [[HelloWorldCxx.download]]
+    sha256 = "0e134b1e7360227c75896675e87742e5216db072cefd6bf05ad2dd19f01ed0da"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.0.0+0/HelloWorldCxx.v1.0.0.x86_64-linux-gnu-cxx03.tar.gz"
