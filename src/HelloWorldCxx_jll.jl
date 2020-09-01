@@ -1,5 +1,9 @@
 module HelloWorldCxx_jll
 
+if isdefined(Base, :Experimental) && isdefined(Base.Experimental, Symbol("@optlevel"))
+    @eval Base.Experimental.@optlevel 0
+end
+
 if VERSION < v"1.3.0-rc4"
     # We lie a bit in the registry that JLL packages are usable on Julia 1.0-1.2.
     # This is to allow packages that might want to support Julia 1.0 to get the
@@ -11,7 +15,7 @@ if VERSION < v"1.3.0-rc4"
     # if they are willing to engage in the kinds of hoop-jumping they might need
     # to in order to install binaries in a JLL-compatible way on 1.0-1.2. One
     # example of this hoop-jumping being to express a dependency on this JLL
-    # package, then import it wtihin a `VERSION >= v"1.3"` conditional, and use
+    # package, then import it within a `VERSION >= v"1.3"` conditional, and use
     # the deprecated `build.jl` mechanism to download the binaries through e.g.
     # `BinaryProvider.jl`.  This should work well for the simplest packages, and
     # require greater and greater heroics for more and more complex packages.
@@ -21,11 +25,55 @@ end
 using Pkg, Pkg.BinaryPlatforms, Pkg.Artifacts, Libdl
 import Base: UUID
 
+wrapper_available = false
+"""
+    is_available()
+
+Return whether the artifact is available for the current platform.
+"""
+is_available() = wrapper_available
+
 # We put these inter-JLL-package API values here so that they are always defined, even if there
 # is no underlying wrapper held within this JLL package.
 const PATH_list = String[]
 const LIBPATH_list = String[]
 
+# We determine, here, at compile-time, whether our JLL package has been dev'ed and overridden
+override_dir = joinpath(dirname(@__DIR__), "override")
+if isdir(override_dir)
+    function find_artifact_dir()
+        return override_dir
+    end
+else
+    function find_artifact_dir()
+        return artifact"HelloWorldCxx"
+    end
+
+    """
+        dev_jll()
+
+    Check this package out to the dev package directory (usually ~/.julia/dev),
+    copying the artifact over to a local `override` directory, allowing package
+    developers to experiment with a locally-built binary.
+    """
+    function dev_jll()
+        # First, `dev` out the package, but don't effect the current project
+        mktempdir() do temp_env
+            Pkg.activate(temp_env) do
+                Pkg.develop("HelloWorldCxx_jll")
+            end
+        end
+        # Create the override directory
+        override_dir = joinpath(Pkg.devdir(), "HelloWorldCxx_jll", "override")
+        # Copy the current artifact contents into that directory
+        if !isdir(override_dir)
+            cp(artifact"HelloWorldCxx", override_dir)
+        end
+        # Force recompilation of that package, just in case it wasn't dev'ed before
+        touch(joinpath(Pkg.devdir(), "HelloWorldCxx_jll", "src", "HelloWorldCxx_jll.jl"))
+        @info("HelloWorldCxx_ll dev'ed out to /depot/dev/HelloWorldCxx_jll with pre-populated override directory")
+    end
+end
 # Load Artifacts.toml file
 artifacts_toml = joinpath(@__DIR__, "..", "Artifacts.toml")
 
@@ -34,7 +82,7 @@ artifacts = Pkg.Artifacts.load_artifacts_toml(artifacts_toml; pkg_uuid=UUID("ae6
 platforms = [Pkg.Artifacts.unpack_platform(e, "HelloWorldCxx", artifacts_toml) for e in artifacts["HelloWorldCxx"]]
 
 # Filter platforms based on what wrappers we've generated on-disk
-platforms = filter(p -> isfile(joinpath(@__DIR__, "wrappers", triplet(p) * ".jl")), platforms)
+filter!(p -> isfile(joinpath(@__DIR__, "wrappers", replace(triplet(p), "arm-" => "armv7l-") * ".jl")), platforms)
 
 # From the available options, choose the best platform
 best_platform = select_platform(Dict(p => triplet(p) for p in platforms))
