@@ -7,7 +7,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_executable_product(
         hello_world,
-        "bin/hello_world.exe",
+        "bin\\hello_world.exe",
     )
 
     JLLWrappers.@generate_init_footer()
