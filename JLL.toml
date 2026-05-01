@@ -1,0 +1,736 @@
+name = "HelloWorldCxx"
+version = "1.1.2"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "HelloWorldCxx"
+platform = "x86_64-linux-gnu-cxx11"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:cb1a5e26bfc70adaa513c0bb02a85265825bd990"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:a0431da89d8eac26de8ef6be88fb3ccfffbb65d1c55833f922e63b76456ffc85"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-x86_64-linux-gnu-cxx11.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:57150a594ae040391dcfb69829ec08db84e162f6"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:437cc260e03ac3402e3c524ef3c994a1c3f3684edc2489d6887cefcddd6174c8"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-x86_64-linux-gnu-cxx11.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:1e0577328cf6813eb840adc0a552cf7fcfd249c2"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:18b0ab6a6e3bbb12e05bc7e5116b0230fea1f0da1f3d0fb1cf5ed7156258e038"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-x86_64-linux-gnu-cxx11.tar.gz"
+[[builds]]
+name = "HelloWorldCxx"
+platform = "i686-linux-gnu-cxx11"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:ce103b1c0ba420f10a5224f4112ed34fc804bc81"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:8de2dc7ce618d4d54cea845a43082b76edb5f1035e8dd3c43b1cd91d990eb79e"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-i686-linux-gnu-cxx11.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:811e1e46a9518c715fcb5b8c6a289cf2cf03ba9c"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:a63e4bf5070b306b45be3856ac9279bad678aff2b77d5c938b17e6dd97f20a68"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-i686-linux-gnu-cxx11.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:5aacbd96ae1b252198fd2868032b006da38d75a2"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:153762e6d2de6daebcfbcba0c3adff69e5a29397f7c021c79b6a2b930423d1b2"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-i686-linux-gnu-cxx11.tar.gz"
+[[builds]]
+name = "HelloWorldCxx"
+platform = "aarch64-linux-gnu-cxx11"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:846c4c57b245ece10cf46a89eafb232e2a9d8b5a"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:d95fda36bf31aa9db6475a2bac34eb0f75027cab545ffe002cec0feea94e1c79"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-aarch64-linux-gnu-cxx11.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:17a953c805dc9c425ba2c485a4b89d1487958f1f"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:ba36c1b7890b99ac2bfaa180635d001ca12ee62836ed7843ca926b227ae43ce2"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-aarch64-linux-gnu-cxx11.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:7df7690caddb649d75c4efc211e418db82dbde25"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:c13772de25904a5d3eac85494497db742a38feddb99ce2b65310eb68f21d5380"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-aarch64-linux-gnu-cxx11.tar.gz"
+[[builds]]
+name = "HelloWorldCxx"
+platform = "armv6l-linux-gnueabihf-cxx11"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:2b733ff09e11d7ab66a8e3cd8a5d2c8f50c830b5"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:5aa1f64aae11875771c46ffe5fa3ba64611a71278fbf1ede1c4253c1701bf4fc"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-armv6l-linux-gnueabihf-cxx11.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:3fb868e8a31e5b9972eb0c5e05ba0a4b88fee9e8"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:32f0da377dd34f3609475a3ebb72a0778dbc5a37b5c022641d842623256673db"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-armv6l-linux-gnueabihf-cxx11.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:b0cf6ef8c83af2429a7a1a8f41642b8b0fe44cbb"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:a4ba4f48f0f877b69eb1f57b02f31476c648a72e1a98ba3718db4ac57ddd2e62"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[builds]]
+name = "HelloWorldCxx"
+platform = "armv7l-linux-gnueabihf-cxx11"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:a920228a17dae62bc4c3f3b6e85cbbfddd4e65a1"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:cc2456d89998edd752eb7aa82ec58f6e359a413f9517405ce138204e063e634a"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-armv7l-linux-gnueabihf-cxx11.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:88037e8fdb80b1414ed4891cfa6a82c70301b1dc"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:6764fb9dc5c035a7de07f66376094621aeadf0ce1c710ae3c68f1c8b1f6315f2"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-armv7l-linux-gnueabihf-cxx11.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:ea92dfc835a45044682b2ad92f1805534394843e"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:1fb4e8eeac32ac021f5a6a0ac2616df332d3f55986c3f66d243bf128ff3114b0"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[builds]]
+name = "HelloWorldCxx"
+platform = "powerpc64le-linux-gnu-cxx11"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:be704d8cc9d68ea301625a6ab912b45f6f9d8f77"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:dd3cb2d4de257ecf91a462fd865e334db7b3b76f866f0469e7bd0ddd1fa86642"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-powerpc64le-linux-gnu-cxx11.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:6352fd7a616281558dc0a83848977300b57aa472"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:4e22b2fc1a1327afc7f5a4349dc9b1d80d353fa3420b154598c08b8915b8ff1a"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-powerpc64le-linux-gnu-cxx11.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:42dfd1d80d87f5f58b6845a3864db2bc6e3f6375"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:6da1f654b771fe39c3ece368ccb69cbbd1749390675d6715d7548de27c53d7e1"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-powerpc64le-linux-gnu-cxx11.tar.gz"
+[[builds]]
+name = "HelloWorldCxx"
+platform = "x86_64-linux-musl-cxx11"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:45f6ebe60b38b928fcb367c13841fd1d65178b3f"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:7fa28156cdac185c657890d6966f8e316bca5e9d9f4adeb36a783575b18bbaf2"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-x86_64-linux-musl-cxx11.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:5cc911d5c67bdb850d05f43dff20fea0163c620e"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:b65e1b97a517fcfa9a68758445bdd3a666aec7eda2e98daa6cc77a1109d9c385"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-x86_64-linux-musl-cxx11.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:d59873d6acb04792cf872a51c281c5d9541e6c9a"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:7b7f033f7b6f3b4b62ac1edcac940492cbee766e6a5872fed32060eff9cbdc27"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-x86_64-linux-musl-cxx11.tar.gz"
+[[builds]]
+name = "HelloWorldCxx"
+platform = "i686-linux-musl-cxx11"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:20ab56ea81a7b0bb2487ffa17a5201cce3c15c2b"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:5b7fa6712ef92fdeb313cd3b09eb5eda5587dd984d932da176da3dd8b41de22c"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-i686-linux-musl-cxx11.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:e35a9317ebcbba749b2d94723f3b20d0b810baf7"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:665c054947db757fc929aac06286dc586384a65e8e39357e6cbbaa73abe19b83"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-i686-linux-musl-cxx11.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:94a75334adc6ae87560240398a5b1fc8921bf7ba"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:b7877107d2ba004078e61902d3f6a0ffe52340e5167be1b5bc3675f25e8e83c8"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-i686-linux-musl-cxx11.tar.gz"
+[[builds]]
+name = "HelloWorldCxx"
+platform = "aarch64-linux-musl-cxx11"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:6d88ceebfa30e45ae89f5287217bea19b2073f6c"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:05348a5be5dd710e28f435d3d50e086db382fd8fccf6d4b461671c3767a3f431"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-aarch64-linux-musl-cxx11.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:c9e81247b19634de86fb009a40aba66d7852a8d7"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:73482e7ccb1efea8e40688f1a4f5926cef63fb0209826134cde3e9b6552e3cac"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-aarch64-linux-musl-cxx11.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:ab224fe7d1ee1a0a0638d611b5519b8b254d4b67"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:a3b7dba080664a8953b4bf6a31af8ec97db0cbe545d2b29b71aa1c480ec5de71"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-aarch64-linux-musl-cxx11.tar.gz"
+[[builds]]
+name = "HelloWorldCxx"
+platform = "armv6l-linux-musleabihf-cxx11"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:d7c89a2cf495e3e1c6ccfeafb3d16775b8c4adcd"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:04cb578b05454e8ec61d9247cc16f036b410a2bfff4cdd76a37189542592e4f8"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-armv6l-linux-musleabihf-cxx11.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:4e8b28957458b104ecf836558ad6a571ae659d28"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:4b5be1ea01cbba1d952281ae75b074bc72388cd63e05f4cfc10555f4d65bc1b3"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-armv6l-linux-musleabihf-cxx11.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:04e6e2ae867a9a5a155a90fdbce6a491034b7f1f"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:8e2deb306dddbe8741e56bae23dc9b865ffb8fc0a5aa8a56d63f7a92f2e66483"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-armv6l-linux-musleabihf-cxx11.tar.gz"
+[[builds]]
+name = "HelloWorldCxx"
+platform = "armv7l-linux-musleabihf-cxx11"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:94d0dc4636937ba767ec7cf6091c8b2e369c4ec4"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:968c96f2f72e8d105e8c97281bd0343fb3d7c31c6aa73d7a6fe73817d50f93d3"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-armv7l-linux-musleabihf-cxx11.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:ff0d1a5e3d3bd97ed107f6d04cf137437e43dfed"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:a19b2426ad5d4e067dda1596012dac48a3c521ac2f562c69b575394d8754db4d"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-armv7l-linux-musleabihf-cxx11.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:4f70e7fb7de5d0fd52e2318896fb8730dc0ae97f"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:0690fbfa95308a169a5e64fe6e24e8a4afd1e6a76e8ad42846edb640aa15240c"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-armv7l-linux-musleabihf-cxx11.tar.gz"
+[[builds]]
+name = "HelloWorldCxx"
+platform = "x86_64-w64-mingw32-cxx11"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:e878b17c67992de3d9e40b8aee74f99ab0fb7e96"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:092309977d15b89cb4a5d6882ebf9c63c984c8e0c5850dd53269fac534ae0d88"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-x86_64-w64-mingw32-cxx11.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:e0309a3c1d99150d5562e0ea9bb2823f2cf00bb9"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:a139c6418a1aa5860bec93ba1b58274582a95189c3b43afb3e0ff36a29ea7dec"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-x86_64-w64-mingw32-cxx11.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world.exe"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:ad88c9daa37e5deb8f69cef445fc992bca13fea4"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:5834f5ca9ff6de15476ac87a71eb3cdd2558cf698cde13c4623576c7e53fee41"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-x86_64-w64-mingw32-cxx11.tar.gz"
+[[builds]]
+name = "HelloWorldCxx"
+platform = "i686-w64-mingw32-cxx11"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:db64f6a48735be4fa0ae124738518bd50fa9a774"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:0126069c4428c4b57e906a3b484fb45ae14c72e3ec4bb33c0dc95b3af199633b"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-i686-w64-mingw32-cxx11.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:8c2168fa52438611e64b677f9a4907e6f351810b"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:bb220854430096b3655145666030ea248f53c4fb43b7c590cc6467336306a444"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-i686-w64-mingw32-cxx11.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world.exe"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:79db13024be33b105701de2a83eaab6c8a0b6f64"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:17a38a0ba6450e5e1a80a2377dc944d17ef745a0f940271443d7dbc906fffdbf"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-i686-w64-mingw32-cxx11.tar.gz"
+[[builds]]
+name = "HelloWorldCxx"
+platform = "x86_64-apple-darwin20"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:b7f8351322e5a2687e4ddfeb5c6eca14b2a1a083"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:bb1f41338deb62423668165b9cba6d8683df34e55ede8ec571396ddf388994e4"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-x86_64-apple-darwin20.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:756ccfdcb05582b427e39e8babe3ea9fd0ceb6af"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:b382e1dcba183568c1ae82fb0d5ca8b8af66c8e84061843b6f22df85b2099cbf"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-x86_64-apple-darwin20.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:fd7c563a8b7939eaf1fb6d9c849f0717ae01468f"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:a5822e7c8f88e2e66f800a89e4683b310894c87208eb4d48e824995bf7c9943c"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-x86_64-apple-darwin20.tar.gz"
+[[builds]]
+name = "HelloWorldCxx"
+platform = "aarch64-apple-darwin20"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:2563d715d3b9cf6b6588cee21e73f4e086a1e7a4"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:bb34d77efe95723ddbff0b4a5319cbfebf173fc11659892e74d87abf9d74f20c"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-aarch64-apple-darwin20.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:18001230bfd9e3fcff759d097c76c005fef58fd7"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:b3a1b5e767c9b735aa0af2d84a926ea203ff718633da5aa16a930b712f3cc3f6"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-aarch64-apple-darwin20.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:264ecadbaeb66a0829227300d8d3127dab87a296"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:903c24150b636eb236520183c387835515e8f9a7c3fb5548286a8412a653aa40"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-aarch64-apple-darwin20.tar.gz"
+[[builds]]
+name = "HelloWorldCxx"
+platform = "x86_64-unknown-freebsd14.1"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:9afa97eb62fdd49754357712642aa094376b9fb5"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:55f44ccb9fe06f7931da6071f3c082b873ce79b7f9b0687e5373450d64c227fa"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-x86_64-unknown-freebsd14.1.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:c1610e02d2e3967c8d72fd65e57fa0965ae56fac"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:a7654bfe6f4a21307da6ae16f19c60dc492d51b665fdfd9d5067ad92c5bedac3"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-x86_64-unknown-freebsd14.1.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:9a809227bd56b6109a7efde4ba85727843395423"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:83053f9b7a5180a6418a5cfd77e2293c3872c092b6e18198de82f1e209b677e2"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-x86_64-unknown-freebsd14.1.tar.gz"
+[[builds]]
+name = "HelloWorldCxx"
+platform = "aarch64-unknown-freebsd14.1"
+deps = []
+lazy = "false"
+src_version = "1.1.2"
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "MIT"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:b5761a73c2b6960a3f46d94c8b12e302589706af"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:eb685341bd1574b436fe1094a8203912f53eb9ad03795f7c91f80954f1d16838"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-build_log-v1.1.2-aarch64-unknown-freebsd14.1.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:a7ae48fd84643d47e1101b19c1ad5dc1be1c29d1"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:e4dac0771085ca2b3aafa1502f62adf74da1f200d657402f9f59d8cdba0da03d"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-extract_log-v1.1.2-aarch64-unknown-freebsd14.1.tar.gz"
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [[builds.sources]]
+    treehash = "sha1:646e3f00584e3a4e50c56fa4e7a1901c90ba021c"
+    url = "/cache/build/yggy-amdci7-8/julialang/yggdrasil/H/HelloWorldCxx/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:cfe1e50302b737f8f248b0ffc5c07e9f2ded2baa"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:b0b388d122ded15fbbf7733bf20d3c9e441e00c797514c93cb6a2190844768b2"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2-bdac5de0/HelloWorldCxx-HelloWorldCxx-v1.1.2-aarch64-unknown-freebsd14.1.tar.gz"
