@@ -1,32 +1,34 @@
 [[HelloWorldCxx]]
 arch = "aarch64"
-git-tree-sha1 = "569e539e528dc96e3f82d3404aeb7798019e725f"
+git-tree-sha1 = "41a9801d8b87e3e181c90671bcbd9629af45cc59"
 os = "macos"
 os_version = "20.0.0"
 
     [[HelloWorldCxx.download]]
-    sha256 = "8fa28130c52359de0a7a0b6932a0c83665df0c50421db92a583c87598a181178"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-aarch64-apple-darwin20.tar.gz"
+    sha256 = "aa16a534e6b1997eae380327ecde6a5cf0e6010cc8cd52c0374e41d02a5a5b10"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.aarch64-apple-darwin20.tar.gz"
 [[HelloWorldCxx]]
 arch = "aarch64"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "7df7690caddb649d75c4efc211e418db82dbde25"
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx.download]]
-    sha256 = "c7f4821b5f5de7eb333f78f259fd50724a0defb86877102373a393cfbfa8bc86"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "8f9c719eda5c29f09a48aa67e7bad98fd1e131aec3841fd72a5903614eea3540"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.aarch64-linux-gnu-cxx11.tar.gz"
 [[HelloWorldCxx]]
 arch = "aarch64"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ab224fe7d1ee1a0a0638d611b5519b8b254d4b67"
+git-tree-sha1 = "f20b0150cb88060bc8aff094dd80298dcb46a530"
 libc = "musl"
 os = "linux"
 
     [[HelloWorldCxx.download]]
-    sha256 = "581a218b27b4e2d5d0824c6c4c2e8164cdbca094731db3061da1f94a4bd2ee79"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "7b4b18af4f9ba4644049d5c1149d9c0878fe88abc6796c5ef0464c38c0c88278"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.aarch64-linux-musl-cxx11.tar.gz"
 [[HelloWorldCxx]]
 arch = "aarch64"
 git-tree-sha1 = "cfe1e50302b737f8f248b0ffc5c07e9f2ded2baa"
@@ -34,120 +36,142 @@ os = "freebsd"
 os_version = "14.1.0"
 
     [[HelloWorldCxx.download]]
-    sha256 = "aea9dbfc7d9ddc9dce9c0c1007417195e4c8071fdb501c0f508e80c3edc9cf1c"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-aarch64-unknown-freebsd14.1.tar.gz"
+    sha256 = "dcfc00f9d7f363066c924faad4c78b6da7eb56c2a636c2e88b9b521dd7c73eac"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.aarch64-unknown-freebsd14.1.tar.gz"
 [[HelloWorldCxx]]
 arch = "armv6l"
 call_abi = "eabihf"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "b0cf6ef8c83af2429a7a1a8f41642b8b0fe44cbb"
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx.download]]
-    sha256 = "a380866ee28d0ceece143ea3b4541ea4450bd20d94225021fec0421d65b0a37e"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-armv6l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "de699de78c22ab85918365d4d3ee420d31d12c05c4a5d93683b0b0d934ffb451"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[HelloWorldCxx]]
 arch = "armv6l"
 call_abi = "eabihf"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "04e6e2ae867a9a5a155a90fdbce6a491034b7f1f"
+git-tree-sha1 = "8c3b193a9ef4bcedbb0ae384e53e5501abe9aae1"
 libc = "musl"
 os = "linux"
 
     [[HelloWorldCxx.download]]
-    sha256 = "2c7f0700a8a0314bfef7d6b3b83475a1efd2d571c5e80bcbf8897e0d78ff3394"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-armv6l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "a761332b29cdc13952200877f1effa7f3bed8508a6faba99ee0c6ec844ef7acc"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.armv6l-linux-musleabihf-cxx11.tar.gz"
 [[HelloWorldCxx]]
 arch = "armv7l"
 call_abi = "eabihf"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "ea92dfc835a45044682b2ad92f1805534394843e"
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx.download]]
-    sha256 = "f1b5906ed1f9e364ef53bd3ed409eebabfb1aa34e444db80b1f5ca41622437a8"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "936699ad47a5b552e64a47e34965efa1d74290105a26be197b9fc2a8fd047b33"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[HelloWorldCxx]]
 arch = "armv7l"
 call_abi = "eabihf"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "4f70e7fb7de5d0fd52e2318896fb8730dc0ae97f"
+git-tree-sha1 = "9cfc9cd7aeef50dd757d23dd0f5623200e40dd13"
 libc = "musl"
 os = "linux"
 
     [[HelloWorldCxx.download]]
-    sha256 = "91957a88ef1a8f20384529ac99f8a0caf93440dd71ce923776e6274d0111aeea"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "514a1e73874998283f746f7118322758e55eb1adc707ea1b03aa234eed49553e"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[HelloWorldCxx]]
 arch = "i686"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "5aacbd96ae1b252198fd2868032b006da38d75a2"
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx.download]]
-    sha256 = "79abfe226f6664a8b43a42c5f51b687d531c25dc7d2c552937864d6faa258e60"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "c1e54b081eb7faa97a183a5f1d1ec7903c49d9e51526ab90438d08b480f16fbc"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.i686-linux-gnu-cxx11.tar.gz"
 [[HelloWorldCxx]]
 arch = "i686"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "94a75334adc6ae87560240398a5b1fc8921bf7ba"
+git-tree-sha1 = "fdd88a3bba9973ed3943c1eba863e0c8dee6609e"
 libc = "musl"
 os = "linux"
 
     [[HelloWorldCxx.download]]
-    sha256 = "46dc975cc041a165cf208ebdfa61baba359f496b43eeba594031ec8e5430f91a"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-i686-linux-musl-cxx11.tar.gz"
+    sha256 = "81a66ebe5ef4a595524a419d81bcd7c9e1a687d5b1c3f046be17d11115eddb20"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.i686-linux-musl-cxx11.tar.gz"
 [[HelloWorldCxx]]
 arch = "i686"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "79db13024be33b105701de2a83eaab6c8a0b6f64"
+git-tree-sha1 = "fe08a0db45f009f6774ef1ca528933c9a6394270"
+libc = "msvcrt"
 os = "windows"
 
     [[HelloWorldCxx.download]]
-    sha256 = "d43e07350920099ccd17063acea1a5d358ef88c5a0ef6774e717b8f146c7606a"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "8062ea4910f05c2470053d3b317ea9d563107f14479b1078784f12d7c4a2af50"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.i686-w64-mingw32-cxx11.tar.gz"
 [[HelloWorldCxx]]
 arch = "powerpc64le"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "42dfd1d80d87f5f58b6845a3864db2bc6e3f6375"
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx.download]]
-    sha256 = "0c59d78c9a7c062b937c09ed2e622600aa90b02c46fde6e024b4e0193de6fd53"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "62718c3219dbe10a0072915dd7a70e53e10107e1b63c4f96a3ac4a8a74e90025"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[HelloWorldCxx]]
+arch = "riscv64"
+cxxlib = "libstdcxx"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4402aaf683dff6d6c2c649367c4bdfb73d873af0"
+libc = "glibc"
+os = "linux"
+
+    [[HelloWorldCxx.download]]
+    sha256 = "122db91d1e9c77b67a29a0b4a4293ffc41c527d83a1e2af6f95c953b08165d1e"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.riscv64-linux-gnu-cxx11.tar.gz"
 [[HelloWorldCxx]]
 arch = "x86_64"
-git-tree-sha1 = "df043af8082b6b61c978ce5f1437a0fffa6e45d4"
+git-tree-sha1 = "f15e07d5ad67a9e3e3458f4334361952cacd0065"
 os = "macos"
 os_version = "20.0.0"
 
     [[HelloWorldCxx.download]]
-    sha256 = "9d23d27056f7215a16e5994ef91df062e6774f73540bb8c83d6c2ab9095e5d3a"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-x86_64-apple-darwin20.tar.gz"
+    sha256 = "c45865cb7636715f004bbd8780c4d39f6e08fe77d7897ab05e8dcdaefab723db"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.x86_64-apple-darwin20.tar.gz"
 [[HelloWorldCxx]]
 arch = "x86_64"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "1e0577328cf6813eb840adc0a552cf7fcfd249c2"
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx.download]]
-    sha256 = "a8832a451a005cefa9a9b7307f3bb421764420bfb797088d60950e7a3e226d51"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "d8acb9c2ae7b558c2aa9d4dc1e2d31ed682628ba0fa7a51e6494a71ecf090c30"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.x86_64-linux-gnu-cxx11.tar.gz"
 [[HelloWorldCxx]]
 arch = "x86_64"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d59873d6acb04792cf872a51c281c5d9541e6c9a"
+git-tree-sha1 = "9ea71c95e7f9c626c3244800480a9fa2ac2342d6"
 libc = "musl"
 os = "linux"
 
     [[HelloWorldCxx.download]]
-    sha256 = "9c0248e8bd283ed617a6d9986678f98ff98dd59edc71ffc6c642bbbe443c6857"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "5723611ee8987b17e153e55cc3e269189b37a481cde812509aac0546644bfd70"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.x86_64-linux-musl-cxx11.tar.gz"
 [[HelloWorldCxx]]
 arch = "x86_64"
 git-tree-sha1 = "9a809227bd56b6109a7efde4ba85727843395423"
@@ -155,386 +179,442 @@ os = "freebsd"
 os_version = "14.1.0"
 
     [[HelloWorldCxx.download]]
-    sha256 = "dc026d3f3f4dd2c310a03907fff3954a1c5a074c7b52f0de1f6de3214cbdc8ca"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-x86_64-unknown-freebsd14.1.tar.gz"
+    sha256 = "e6e39a502d3e128a9a8eb199bef0d1a66aa49b26310aabcc3b4f41abb27d9074"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.x86_64-unknown-freebsd14.1.tar.gz"
 [[HelloWorldCxx]]
 arch = "x86_64"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ad88c9daa37e5deb8f69cef445fc992bca13fea4"
+git-tree-sha1 = "2f047dede1486ae0bf71a9c633d3718815814b97"
+libc = "msvcrt"
 os = "windows"
 
     [[HelloWorldCxx.download]]
-    sha256 = "720c13ccc65c8c0f9993ed6fd00abb69f508f05dcbea12e6b63faeaa7f97a55e"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-HelloWorldCxx-v1.1.2-x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "7d0745d2dce32f1aba24ae67bd39cfae0592fa439ed5755d234bc1a33dc6b8a7"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx.v1.1.3.x86_64-w64-mingw32-cxx11.tar.gz"
 
 [[HelloWorldCxx-build_log]]
 arch = "aarch64"
-git-tree-sha1 = "234e791b8a640b548ef201dcf59fcfb8fc9a3107"
+git-tree-sha1 = "34d8e20a73b89104e50ccaac4441a34695416b1c"
 lazy = true
 os = "macos"
 os_version = "20.0.0"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "a89cb84a7dc5760eafdf959b003dfde2bde7f1b62f1a42e088cd3b9ca30e8169"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-aarch64-apple-darwin20.tar.gz"
+    sha256 = "fa333c63b1a8220590113b7f40679c089ff47d6b13bd25e58145ae36ce932fe6"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.aarch64-apple-darwin20.tar.gz"
 [[HelloWorldCxx-build_log]]
 arch = "aarch64"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "5b68d2079731513c8eb0a7b1c4307552d82cbe12"
+git-tree-sha1 = "5f31b4542c52ee9d7defe5ed7c209fdeb2421d6b"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "a2fe2bc61f060fd2a68845aa4d265eb00e7d94bc1eb92bf876302164dce09c84"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "34c33a278ea9beb487e24e8d877b609c65e74d74bed6580b29f744ee1d40e82d"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.aarch64-linux-gnu-cxx11.tar.gz"
 [[HelloWorldCxx-build_log]]
 arch = "aarch64"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e1f46e0b49c90fcceb8623af9c52e0081726352b"
+git-tree-sha1 = "f476ac7004e7a41bf9ce422d9542352bdcc4d3f5"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "e1cef7ef2c8ea023a048669a46cef38fd36a4249784de1691edffd91e054ddbc"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "54c8e938e13a88d0d3b23afc01910ecdde40ac39d60b98458ce45113021180cd"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.aarch64-linux-musl-cxx11.tar.gz"
 [[HelloWorldCxx-build_log]]
 arch = "aarch64"
-git-tree-sha1 = "4b5078563c2697bb8ab443b8e10315aef7273ebe"
+git-tree-sha1 = "b3d8185ea6b8152123e4fced73a9864a88710dfd"
 lazy = true
 os = "freebsd"
 os_version = "14.1.0"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "e4288297768849aa128c2d399372dc1c9cba526586924fe38d796252f3a87485"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-aarch64-unknown-freebsd14.1.tar.gz"
+    sha256 = "e85732d3c4121f327c2bf5ffe232f03b6393e2f3ecf0156856636eacc7b32062"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.aarch64-unknown-freebsd14.1.tar.gz"
 [[HelloWorldCxx-build_log]]
 arch = "armv6l"
 call_abi = "eabihf"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "64c8d3890185ddb6089f0a1afb313a7f0c926749"
+git-tree-sha1 = "ab93565768cc84466806a8ce270c4e38912e9d38"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "ec3bd0c5007d6dcb1cd0002f9c5836f606a1c6c295d0c8c87acd476e8e05452f"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-armv6l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "27d781d7a7d628fbbfe1d1f0979525e8ecf1cf99e3aeba8c9af06d4da795c97e"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[HelloWorldCxx-build_log]]
 arch = "armv6l"
 call_abi = "eabihf"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "0386f7ba402dff122b31b0db28ef76b69be4ae62"
+git-tree-sha1 = "c77f307ef0b986f0851b775ad2504996be72c281"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "703e50fe7cc14ef3be799a271c0469f4eb163d85fea705d545a93c4888cc9745"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-armv6l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "380ba69dec7a33e4ad12d54ce58c1199bb38eb493b58cfd573d9b156feb88eda"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.armv6l-linux-musleabihf-cxx11.tar.gz"
 [[HelloWorldCxx-build_log]]
 arch = "armv7l"
 call_abi = "eabihf"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "451951920c91106d5d5e8638ae1a4df12f8bdd32"
+git-tree-sha1 = "e6c45f7a21c996fc9c76937412cfb556f3ebe08d"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "136c38c6588c71ecf3c92bd79453c17aefcedc2a01b6ccb8af9f832b5164d425"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "5bd46abdd9c235dd1de570e2650baa730f6d031f567e470d21c8fa7012d3e3a2"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[HelloWorldCxx-build_log]]
 arch = "armv7l"
 call_abi = "eabihf"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "16e8f561e828347dd7d445222438c0baa848ee58"
+git-tree-sha1 = "e37108c74850b5dea4d31fb23b9c6d5473d788f8"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "8de837afc80e305e31a48f74dad543ed795c9874b90306aab18ac284f1cd3975"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "1803142b34d15c2f49042d38a1fdc03952dea89eac7187d0ec23d188a405a298"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[HelloWorldCxx-build_log]]
 arch = "i686"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "3416a6cd01795251e077c38d46d48e779e2393f5"
+git-tree-sha1 = "33405f67f7b153eda762532fc7d5cde52f02ce84"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "a011c08722d23b471e40a0c0c277ba6bbe0004db21a193edea82c30d4ed3f0e8"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "850e643408724034c5b0c465798f4eed0ab3573bf883dd7f1887d43c7af75065"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.i686-linux-gnu-cxx11.tar.gz"
 [[HelloWorldCxx-build_log]]
 arch = "i686"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "90bff1bdb9725b980448f6f5322910e2dfd9e0cb"
+git-tree-sha1 = "66a2e43bc36e55c5b47df74d9b06aac7d644d903"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "531223f75a4555eb7d95ee16460e8778a33cd383c4324cbd6612537035e81069"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-i686-linux-musl-cxx11.tar.gz"
+    sha256 = "7dba16171b91032e73e8f82d3786e9eb5990783b969407d5121da2eb8c305dcd"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.i686-linux-musl-cxx11.tar.gz"
 [[HelloWorldCxx-build_log]]
 arch = "i686"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "190087f05d03c3370834da3703a595e6a706039c"
+git-tree-sha1 = "2007941791a219e255ce84ec72b9d5e204cd1921"
 lazy = true
+libc = "msvcrt"
 os = "windows"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "22675472402e09b759d4e6446743b4521dfd7d2ab97b61623bac69a3c892adf1"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "a5430fc3b0f72782c3df5022982e96096d089ca2cc0d0dee3f2cf9c280c40689"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.i686-w64-mingw32-cxx11.tar.gz"
 [[HelloWorldCxx-build_log]]
 arch = "powerpc64le"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "321f74d796ea33c6e07c03e16fc60db8ed7a2fe2"
+git-tree-sha1 = "96ef997263bd910f2fbad921f893c26dd98f1de3"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "4e9dcf688ea52b417171ca53e79da0cf8fb9f68e73046642935de9bc415a6bb5"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "e8ed54a12dcbb23c47a4576eeaf2991a0a5e29a2945bcdeebbf51f3a7c004ba0"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[HelloWorldCxx-build_log]]
+arch = "riscv64"
+cxxlib = "libstdcxx"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c9426e748e3af5da69523b03a71b6b240d9f2155"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[HelloWorldCxx-build_log.download]]
+    sha256 = "3f4ab30cec0702f0dd8f6e251ee880a72ee7a85df7e533ae6f8531c1b699e101"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.riscv64-linux-gnu-cxx11.tar.gz"
 [[HelloWorldCxx-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "6b901d51d600a03009b8b89a7411644b3022a9f4"
+git-tree-sha1 = "5159dd025d6e01582f14ed9b50af86c4de4aecb8"
 lazy = true
 os = "macos"
 os_version = "20.0.0"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "e7754f3390cff648a3fa14c05d9f4b9932a0842fa2026f8ea1edc25077f0c999"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-x86_64-apple-darwin20.tar.gz"
+    sha256 = "4537587a3dca1f401e05cfd8d2682c5eae5c9ebe393d6a71ed931676f4569ad8"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.x86_64-apple-darwin20.tar.gz"
 [[HelloWorldCxx-build_log]]
 arch = "x86_64"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "fbf0116c47082169c5faac286bc21627b439ff32"
+git-tree-sha1 = "aa8eccd8769dc19ce99911d33e48ba209ba33949"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "07e4dc2f0333c341f220bb0e44298f2ce9d27d04674557439ec4b0cc03e6ee4d"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "283a45463cab99b5dfd5385e3f829830d25d1c9916e69109a31d5f484d06e82e"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.x86_64-linux-gnu-cxx11.tar.gz"
 [[HelloWorldCxx-build_log]]
 arch = "x86_64"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f9f4d72ca1754469aaf29ef0080b63ed76634c0b"
+git-tree-sha1 = "f79d61ed8ecd37926dd032777a2f0fc48517fdd8"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "85459ed95425e681ea4d49369142b10315a3ff3c3c29d3252f7e8f2c73ec60b7"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "43a86180c5f19f6992321a520e46443a6f7fb351aa30a3ddd413013d49969acd"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.x86_64-linux-musl-cxx11.tar.gz"
 [[HelloWorldCxx-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "ef1163c853af89ad26b7b088da038ef6db8c45c6"
+git-tree-sha1 = "7454a72d7a6f79fc31de388ef4a4da719993acf5"
 lazy = true
 os = "freebsd"
 os_version = "14.1.0"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "79032fb241081db299e9b158b27471f02a6166e51e46008487d323f6f105dfc6"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-x86_64-unknown-freebsd14.1.tar.gz"
+    sha256 = "d8cf8b932f35653013dfa1cb87fe8ff98386a45012d30e42ea9e3d12f2cc7503"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.x86_64-unknown-freebsd14.1.tar.gz"
 [[HelloWorldCxx-build_log]]
 arch = "x86_64"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "396be42b08621531704b782dc46391566f44e57e"
+git-tree-sha1 = "fb82c582174cce980cb724ae2b13947d1593f862"
 lazy = true
+libc = "msvcrt"
 os = "windows"
 
     [[HelloWorldCxx-build_log.download]]
-    sha256 = "c1ae221c7147e2b20ded2aa0d805b80a2acb468163a9d6ab845ef0d7ce61671f"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-build_log-v1.1.2-x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "2cdbab38e87dda263dd0d7b5fa34b3a7b79a672be24859bb7cfb7ccfaf48e6f9"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-build_log.v1.1.3.x86_64-w64-mingw32-cxx11.tar.gz"
 
 [[HelloWorldCxx-extract_log]]
 arch = "aarch64"
-git-tree-sha1 = "776a546789ef3b721781463c8791f1d1c198ff57"
+git-tree-sha1 = "8d805180ba26f3edab3e40d6cb6c1f6e60370b07"
 lazy = true
 os = "macos"
 os_version = "20.0.0"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "0e8688920ce978c1272669ad400e6064794274f0b71447b46e550c69221fa943"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-aarch64-apple-darwin20.tar.gz"
+    sha256 = "8b157cf6ec0767146b287c0cc81b9842884fc90c3ef1bc87d4a1ab150cf61005"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.aarch64-apple-darwin20.tar.gz"
 [[HelloWorldCxx-extract_log]]
 arch = "aarch64"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "afe4837644f002eda2e1064068d76f0d9d0a1cae"
+git-tree-sha1 = "415a5736000f62920407e10eebca52e4d25fcd15"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "905dda10afba0ecf5d38d87fcde3eeca82e9fab60fd50b3f5ea24f71c8ece0b4"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "69db7574beb0f8f7c4d18f89c592a136153712ad219fa6a9f28034ec6d26e4d0"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.aarch64-linux-gnu-cxx11.tar.gz"
 [[HelloWorldCxx-extract_log]]
 arch = "aarch64"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "4ca46ce2b1c61c033e4e19d86bc01f180691ba6b"
+git-tree-sha1 = "10d01bf8162510b775117785d20811cfb106b193"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "980c31d5f5a2b9ace4243720a36a3cacb42dd8dfb88b5d0ffa175c8458d65504"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "ef920b078573d8d108588c3912b1dfe1c7ed2cd4cb22728c65f784083439cb90"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.aarch64-linux-musl-cxx11.tar.gz"
 [[HelloWorldCxx-extract_log]]
 arch = "aarch64"
-git-tree-sha1 = "931a39f248527ec3f4ac9e996274c8a0a370f10c"
+git-tree-sha1 = "d60f2347307571a42ff76f63fdae6404348de9af"
 lazy = true
 os = "freebsd"
 os_version = "14.1.0"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "f42639b9239addd76f5999ce64b8e8137bea2af648bcb444517aaec2d0c45b5e"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-aarch64-unknown-freebsd14.1.tar.gz"
+    sha256 = "ab9655eebab15398771800073d622029ad9a9e73bbe7c0732bdd348e631accb2"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.aarch64-unknown-freebsd14.1.tar.gz"
 [[HelloWorldCxx-extract_log]]
 arch = "armv6l"
 call_abi = "eabihf"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2a44a5adb010d180eb5e352ad6f03c515c9d5f85"
+git-tree-sha1 = "68abbc9510ad5d3d79227de25e9b1a09fd454681"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "e679c4e4d2a3a09729e795cbf44c0797017bb76bbeeb3fbe503eb7454635bf61"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-armv6l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "62010b8827f4958fb107b28d5e508235ead9993b808c927b28249c0f0a2d92ec"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[HelloWorldCxx-extract_log]]
 arch = "armv6l"
 call_abi = "eabihf"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "8a09a7e14f9b6d572f08cf6da938e5350b4fac95"
+git-tree-sha1 = "71b953b35e59e75d86d54f41620f5ce53a4f46d2"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "e8a6cb612d6d82ef9c4b43d586adcb83c1d52e1ee32e1e112772424d42b279a0"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-armv6l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "fc2455e99d32c8bb84cd9ffddd4ea753277ad76a9b91d413b657abbcfc325258"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.armv6l-linux-musleabihf-cxx11.tar.gz"
 [[HelloWorldCxx-extract_log]]
 arch = "armv7l"
 call_abi = "eabihf"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "76264c08dcb183cd24023838633f388fb582c04d"
+git-tree-sha1 = "7a828c9fa51f077e1915ac86e8b380b10a69c3d5"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "a689e91c0d2dbeb6e974c9bbbb055203267a2ed3a8ca3e715cb6e45704d062ab"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "e56d66303449666f65d35b5759799bc1d69bac6b6a09cb0c52c5177526751331"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[HelloWorldCxx-extract_log]]
 arch = "armv7l"
 call_abi = "eabihf"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2aee2e85fd0b3cb4259b910d559d6b71f0f1544e"
+git-tree-sha1 = "39ed819793f69b79ff61413c10b9ec39b9f09830"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "b5a77308d3df8b08bcab9017f4486e644d664fec84f22c4aba6893221ca9c988"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "48291e1faebcd54e8e4a7703caaa8bf4d92ad87e3bd352721bd403cfc8cd5b1e"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[HelloWorldCxx-extract_log]]
 arch = "i686"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "dc1b2468b4053fdad291e3487a2d2812887348fa"
+git-tree-sha1 = "4a6c19abbbc61fcc0c5e149ec46aac117fd5e38a"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "d5478ecf808fa3b549e7112af76320c14acb9fa7ed7b153c97ebd02ee8c9c1d2"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "46ab77332f3a01e604fbcf5adf459790861e4afe4cd13575f05bbf9c1716608c"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.i686-linux-gnu-cxx11.tar.gz"
 [[HelloWorldCxx-extract_log]]
 arch = "i686"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d4a670d926347d8bfd7cffd6e101a5356bde4bb7"
+git-tree-sha1 = "c1bc0bfc4b2036a56963921e40c5a0d4fca9ffbf"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "ebcfcaece225a554e0b7353b0edfef6ef9323e07a6b256b662e2cd462448d67f"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-i686-linux-musl-cxx11.tar.gz"
+    sha256 = "a4dfe6bcd02a102faf9135efc6fb50d6fd95f65a0107f1a2bf4be07d5212f593"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.i686-linux-musl-cxx11.tar.gz"
 [[HelloWorldCxx-extract_log]]
 arch = "i686"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "0a4f366e6e82908c8af98cd74d37afe2a5469c5f"
+git-tree-sha1 = "8b62ffd8296d36264c4d77fd12453da60bb2b5aa"
 lazy = true
+libc = "msvcrt"
 os = "windows"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "7c1fce81ba1c1a2a1bac1917680b672c2d0764e3bc5be838639d19f5fe2f0d5a"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "65ef75ee660a543b28580e41f33caf04480928e5ea4fcbadcff92e1d808fbd41"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.i686-w64-mingw32-cxx11.tar.gz"
 [[HelloWorldCxx-extract_log]]
 arch = "powerpc64le"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f1168b66a091c46f95648f9c463ec4ab17aae1bb"
+git-tree-sha1 = "6f863034648cd6ec3c3a8051a83504ac29e7461e"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "4a33d5f3ae5357f12ec002e4414bd64adeeabf5685d8d3ec7d2dc231bfa47b58"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "cac0610e91a1657cac21edf43ad62fd8b0e101850d8f9c00f5918b2ee8f8bf62"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[HelloWorldCxx-extract_log]]
+arch = "riscv64"
+cxxlib = "libstdcxx"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4887be60c789674689b943ae6c23edfb2ae97b41"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[HelloWorldCxx-extract_log.download]]
+    sha256 = "dbdb71940e6401fc7b014613f66b648c1712a8321c193d654891f236911588e1"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.riscv64-linux-gnu-cxx11.tar.gz"
 [[HelloWorldCxx-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "7195f2c0f3c23712acaf21b170bb50e84d5b4d28"
+git-tree-sha1 = "e25d2212db76dd177688f3f8fee21834aa4f85f1"
 lazy = true
 os = "macos"
 os_version = "20.0.0"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "f1979c6edc5f3047b0b97da4244540baf6b354aefedda3a682cc19eb1b54ef26"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-x86_64-apple-darwin20.tar.gz"
+    sha256 = "ccee776ed1f162dcfa043b393e700a10754ae0cba50e9f0e3ef975cce24b98ae"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.x86_64-apple-darwin20.tar.gz"
 [[HelloWorldCxx-extract_log]]
 arch = "x86_64"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "95d14d5759c54380a8d114bf9d5bd604a7c036aa"
+git-tree-sha1 = "00e8224b9321904b233d22341c429dd0a19cc14a"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "b2fdda902137e029a98cb70642e9d35f5437d974ae4d9ca8e63315e695f2c655"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "0ef3f5a90f67485826e3669274187c4e9d254dffc079cfd71e3c9eae3b43c492"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.x86_64-linux-gnu-cxx11.tar.gz"
 [[HelloWorldCxx-extract_log]]
 arch = "x86_64"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "9ff1a8e1fcb8ddddcd779effdaf986e990b8e8c8"
+git-tree-sha1 = "041b72a70c36174c0454d2fc683ad2e7f9546812"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "71e88a33f4a8513900dd9812b48f62512f959673ed7d98c6b13d3651abde8372"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "61717e520ec60c1aacfc79e4c5c504833760da18c7d95307988a690dd6adf602"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.x86_64-linux-musl-cxx11.tar.gz"
 [[HelloWorldCxx-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "66303e79a78fcfddbb5a227d6239c126acc2a8a9"
+git-tree-sha1 = "56f2d2d59c69daa1a157851187e922dcf9af24eb"
 lazy = true
 os = "freebsd"
 os_version = "14.1.0"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "cfde011b92b9ba61f39a3d86814476558c6fea217f8a5872405273e9392a488d"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-x86_64-unknown-freebsd14.1.tar.gz"
+    sha256 = "befe17528db25ef523b85715a9bc257489116f51ccc229558dfe7ce3ee6674e5"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.x86_64-unknown-freebsd14.1.tar.gz"
 [[HelloWorldCxx-extract_log]]
 arch = "x86_64"
+cxxlib = "libstdcxx"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "fc897498af4db486d2f1cbdba847c300e3d9639b"
+git-tree-sha1 = "bf5450deabaf58ce66c31d6329b9d14089e8f1d0"
 lazy = true
+libc = "msvcrt"
 os = "windows"
 
     [[HelloWorldCxx-extract_log.download]]
-    sha256 = "fae24a9d7d545bd2e1e8cf90d3c88607d66263e8ca640e7104912ce2a3f1428c"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.2/HelloWorldCxx-extract_log-v1.1.2-x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "77c39a2a2323272504d46de4f7f358de53afcc23c5aaaf23c6322f5e1a963ad3"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCxx_jll.jl/releases/download/HelloWorldCxx-v1.1.3/HelloWorldCxx-extract_log.v1.1.3.x86_64-w64-mingw32-cxx11.tar.gz"
